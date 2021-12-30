@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  cursor: default;
+  user-select: none;
+}
+
+:root {
+  --tabbar-height: 64px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
