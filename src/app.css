@@ -8,6 +8,14 @@
 
 :root {
   --tabbar-height: 64px;
+  --c-blue: #3a5eff;
+  --c-green: #08c173;
+  --c-orange: #fe824c;
+  --c-red: #f85a53;
+  --c-black: #203152;
+  --c-gray-dark: #7E8DA6;
+  --c-gray-ligt: #C5CAD4;
+  --c-white: #F1F3F6;
 }
 
 html,
@@ -18,7 +26,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-color: aliceblue;
+  background-color: var(--c-white);
 }
 
 h1,
