@@ -3,10 +3,10 @@
 
   import Router from "svelte-spa-router";
   import Tabbar from "./components/Tabbar.svelte";
-  import TransactionTab from "./components/TransactionTab.svelte";
   import { routes } from "./routes";
 
-  import PerfectScrollbar from 'perfect-scrollbar'
+  import PerfectScrollbar from "perfect-scrollbar";
+  import Infobar from "./components/Infobar.svelte";
 
   const handleKeydown = (e) => {
     console.log(e);
@@ -25,11 +25,10 @@
   };
 
   const perfectScrollbar = (node) => {
-    const ps = new PerfectScrollbar(node)
-  }
+    const ps = new PerfectScrollbar(node);
+  };
 
-  onMount(() => {
-  });
+  onMount(() => {});
 </script>
 
 <svelte:window on:keydown={handleKeydown} on:contextmenu={handleContextMenu} />
@@ -37,7 +36,7 @@
 <main use:perfectScrollbar>
   <Router {routes} />
   <Tabbar />
-  <TransactionTab />
+  <Infobar />
 </main>
 
 <style>

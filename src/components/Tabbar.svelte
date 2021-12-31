@@ -29,24 +29,37 @@
     background-color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     position: fixed;
     z-index: 1000;
-    width: 100%;
-    left: 0;
-    top: 0;
-    box-shadow: 0 5px 10px rgba(20, 30, 40, 0.1);
+    border-radius: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1.5rem;
+    box-shadow: 0 -5px 25px rgba(20, 30, 40, 0.15);
+    padding: 8px;
+    height: var(--tabbar-height);
   }
 
   nav a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    height: calc(var(--tabbar-height) - 1rem);
     flex: 1 1 25%;
-    height: var(--tabbar-height);
+    width: 100px;
+    border-radius: 50px;
+    color: #234;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: royalblue;
+    background-color: #eef;
   }
 
   :global(nav.tabbar a.active) {
-    color: red;
+    color: royalblue;
   }
 </style>

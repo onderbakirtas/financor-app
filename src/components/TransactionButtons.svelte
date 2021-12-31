@@ -1,20 +1,14 @@
-<div class="transaction-tab">
+<div class="transaction-buttons">
   <button class="plus">+</button>
   <button class="minus">-</button>
 </div>
 
 <style>
-  .transaction-tab {
+  .transaction-buttons {
     display: flex;
     align-items: center;
     background: #fff;
-    border-radius: 100px;
     padding: 8px;
-    position: fixed;
-    bottom: 16px;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 5px 25px rgba(20, 30, 40, 0.15);
   }
 
   button {
@@ -25,12 +19,13 @@
     text-transform: uppercase;
     font-size: 50px;
     line-height: 1;
-    width: 70px;
+    width: 50px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     border-radius: inherit;
     margin: 0;
+    border-radius: 8px;
   }
 
   button.plus {
@@ -49,8 +44,16 @@
     background: green;
   }
 
+  button.plus:active {
+    background: darkgreen;
+  }
+
   button.minus:hover {
     background: crimson;
+  }
+
+  button.minus:active {
+    background: darkred;
   }
 
   button:active {
