@@ -1,12 +1,12 @@
 <script>
   import BalanceInfo from "./BalanceInfo.svelte";
-  import TransactionButtons from "./TransactionButtons.svelte";
+  import TransactionButton from "./TransactionButton.svelte";
 
 </script>
 
 <div class="infobar">
   <BalanceInfo />
-  <TransactionButtons />
+  <TransactionButton />
 </div>
 
 <style>
@@ -20,6 +20,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 1rem;
+    padding: 0.5rem 1rem;
   }
 </style>
