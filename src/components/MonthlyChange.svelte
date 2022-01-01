@@ -2,7 +2,7 @@
   export let status;
   export let amount = 0;
 
-  $: iconClass = status === "income" ? "up" : "down";
+  $: iconClass = status === "income" ? "down" : "up";
   $: statusText = status === "income" ? "gelir" : "gider";
 </script>
 
@@ -22,6 +22,7 @@
   .change {
     display: flex;
     align-items: center;
+    width: 100%;
 
     &-icon {
       height: 50px;
