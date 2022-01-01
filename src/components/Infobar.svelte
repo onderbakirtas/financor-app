@@ -6,8 +6,8 @@
 
 <div class="infobar">
   <Logo />
-  <!-- <BalanceInfo /> -->
-  <TransactionButton />
+  <BalanceInfo />
+  <!-- <TransactionButton /> -->
 </div>
 
 <style>
