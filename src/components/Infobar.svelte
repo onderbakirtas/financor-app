@@ -1,11 +1,12 @@
 <script>
   import BalanceInfo from "./BalanceInfo.svelte";
+  import Logo from "./Logo.svelte";
   import TransactionButton from "./TransactionButton.svelte";
-
 </script>
 
 <div class="infobar">
-  <BalanceInfo />
+  <Logo />
+  <!-- <BalanceInfo /> -->
   <TransactionButton />
 </div>
 
@@ -16,7 +17,7 @@
     left: 0;
     width: 100%;
     background: #fff;
-    box-shadow: 0 5px 25px rgba(20, 30, 40, 0.15);
+    box-shadow: 0 5px 15px rgba(20, 30, 40, 0.05);
     display: flex;
     align-items: center;
     justify-content: space-between;

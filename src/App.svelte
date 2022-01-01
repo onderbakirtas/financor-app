@@ -35,8 +35,8 @@
 
 <main use:perfectScrollbar>
   <Router {routes} />
-  <Tabbar />
   <Infobar />
+  <Tabbar />
 </main>
 
 <style>
