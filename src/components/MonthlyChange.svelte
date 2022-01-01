@@ -33,13 +33,13 @@
       font-size: 36px;
 
       &.income {
-        background-color: lighten($color: $c-green, $amount: 45);
-        color: darken($color: $c-green, $amount: 10);
+        background-color: lighten($color: $c-green, $amount: 50);
+        color: darken($color: $c-green, $amount: 15);
       }
 
       &.expense {
-        background-color: lighten($color: $c-red, $amount: 25);
-        color: darken($color: $c-red, $amount: 10);
+        background-color: lighten($color: $c-red, $amount: 30);
+        color: darken($color: $c-red, $amount: 15);
       }
     }
 
