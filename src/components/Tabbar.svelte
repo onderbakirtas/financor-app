@@ -19,8 +19,8 @@
       icon: "cash-stack",
     },
     {
-      text: "Profil",
-      link: "/profile",
+      text: "Ayarlar",
+      link: "/settings",
       icon: "gear",
     },
   ];

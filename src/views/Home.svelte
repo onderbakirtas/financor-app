@@ -1,9 +1,10 @@
 <script>
   import AccountCard from "../components/AccountCard.svelte";
   import Monthly from "../components/Monthly.svelte";
+  import { fade } from "svelte/transition";
 </script>
 
-<div class="home">
+<div class="home" in:fade>
   <AccountCard />
   <Monthly />
 </div>
