@@ -42,7 +42,7 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 1.5rem;
-    box-shadow: 0 -5px 25px rgba(20, 30, 40, 0.15);
+    box-shadow: 0 6px 32px rgba(20, 30, 40, 0.1);
     padding: 8px;
     height: var(--tabbar-height);
     font-size: 1.5rem;
