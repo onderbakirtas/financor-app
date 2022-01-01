@@ -10,7 +10,7 @@
 <style lang="scss">
   @import "../styles/colors";
   .card {
-    background: linear-gradient(315deg, lighten($c-blue, 5), darken($c-blue, 15));
+    background: linear-gradient(315deg, lighten($c-green, 3), darken($c-blue, 8));
     border-radius: 20px;
     padding: 15px 30px;
     line-height: 1;
