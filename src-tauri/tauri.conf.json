@@ -54,9 +54,8 @@
     "windows": [
       {
         "title": "Financor",
-        "width": 420,
-        "height": 800,
-        "maxWidth": 420,
+        "width": 400,
+        "height": 768,
         "resizable": false,
         "fullscreen": false,
         "center": true,
