@@ -31,6 +31,10 @@
       background: linear-gradient(225deg, $c-blue, darken($c-blue, 15));
     }
 
+    &.expense {
+      background: linear-gradient(225deg, $c-orange, darken($c-orange, 15));
+    }
+
     &-amount {
       font-size: 20px;
     }
