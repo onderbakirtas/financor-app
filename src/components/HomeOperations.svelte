@@ -30,18 +30,21 @@
 </div>
 
 <style lang="scss">
+  @import "../styles/colors";
+  
   .block {
-    margin-top: 1rem;
+    margin-top: 2rem;
 
     &-title {
       margin: 0;
       font-size: 20px;
       letter-spacing: -0.05rem;
+      color: $c-black;
     }
 
     &-operations {
       display: flex;
+      margin-top: 1rem;
     }
   }
 </style>
-

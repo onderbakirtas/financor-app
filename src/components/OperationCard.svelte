@@ -22,26 +22,29 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    height: 120px;
+    height: 150px;
     justify-content: flex-end;
     color: $c-white;
     padding: 1rem;
+    width: 130px;
 
     &.income {
-      background: linear-gradient(225deg, $c-blue, darken($c-blue, 15));
+      background: linear-gradient(225deg, lighten($c-blue, 10), darken($c-blue, 20));
     }
 
     &.expense {
-      background: linear-gradient(225deg, $c-orange, darken($c-orange, 15));
+      background: linear-gradient(225deg, lighten($c-orange, 10), darken($c-orange, 20));
     }
 
     &-amount {
-      font-size: 20px;
+      font-size: 22px;
+      font-weight: 700;
     }
 
     &-category {
       opacity: 0.8;
       font-size: 15px;
+      font-weight: 300;
     }
   }
 </style>
