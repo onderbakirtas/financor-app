@@ -1,5 +1,4 @@
 <script>
-  import { store } from "../store";
   import AccountCard from "../components/AccountCard.svelte";
 </script>
 
