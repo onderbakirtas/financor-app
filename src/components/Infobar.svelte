@@ -1,13 +1,11 @@
 <script>
   import BalanceInfo from "./BalanceInfo.svelte";
   import Logo from "./Logo.svelte";
-  import TransactionButton from "./TransactionButton.svelte";
 </script>
 
 <div class="infobar">
   <Logo />
   <BalanceInfo />
-  <!-- <TransactionButton /> -->
 </div>
 
 <style>
