@@ -21,14 +21,26 @@
 
   .change {
     display: flex;
+    align-items: center;
 
     &-icon {
-      height: 40px;
-      width: 40px;
-      border-radius: 5px;
+      height: 50px;
+      width: 50px;
+      border-radius: 8px;
       display: inline-flex;
       justify-content: center;
       align-items: center;
+      font-size: 36px;
+
+      &.income {
+        background-color: lighten($color: $c-green, $amount: 45);
+        color: darken($color: $c-green, $amount: 10);
+      }
+
+      &.expense {
+        background-color: lighten($color: $c-red, $amount: 25);
+        color: darken($color: $c-red, $amount: 10);
+      }
     }
 
     &-body {
@@ -41,13 +53,15 @@
     &-text {
       font-weight: 300;
       color: $c-gray-dark;
+      text-transform: capitalize;
+      font-size: 14px;
     }
 
     &-amount {
       font-weight: 600;
       color: $c-black;
-      font-size: 1.5rem;
-      margin-top: 5px;
+      font-size: 1.25rem;
+      margin-top: 3px;
     }
   }
 </style>
