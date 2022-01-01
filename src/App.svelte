@@ -41,8 +41,7 @@
 
 <style>
   main {
-    text-align: center;
     max-height: 100%;
-    padding-top: calc(var(--tabbar-height) + 16px);
+    padding-top: var(--tabbar-height);
   }
 </style>

@@ -1,13 +1,16 @@
 <script>
-  let balance = 0
+  import { store } from "../store";
+  import AccountCard from "../components/AccountCard.svelte";
 </script>
 
-<h1>Hello from Financor</h1>
-
-<p>Your balance: <b>{balance}</b></p>
+<div class="home">
+  <AccountCard />
+</div>
 
 <style lang="scss">
-  h1 {
-    font-weight: 100;
+  .home {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
   }
 </style>
