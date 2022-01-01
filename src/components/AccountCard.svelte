@@ -10,7 +10,7 @@
 <style lang="scss">
   @import "../styles/colors";
   .card {
-    background: linear-gradient(315deg, lighten($c-green, 3), darken($c-blue, 8));
+    background-color: darken($color: $c-blue, $amount: 10);
     border-radius: 20px;
     padding: 15px 30px;
     line-height: 1;
@@ -21,13 +21,14 @@
     color: #fff;
 
     &-title {
-      font-weight: 300;
+      font-weight: 500;
+      letter-spacing: 0.05rem;
       opacity: 0.9;
       margin-top: 10px;
     }
 
     &-amount {
-      font-size: 36px;
+      font-size: 40px;
       font-weight: 700;
     }
   }
