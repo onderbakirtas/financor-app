@@ -9,7 +9,10 @@
     <a href="/transactions" use:link>Tümü</a>
   </header>
   <main class="recents-list">
-    <Transaction type="expense" />
+    <Transaction type="expense" category="food" amount="54" date={Date.now()} />
+    <Transaction type="expense" category="food" amount="54" date={Date.now()} />
+    <Transaction type="expense" category="food" amount="54" date={Date.now()} />
+    <Transaction type="expense" category="food" amount="54" date={Date.now()} />
   </main>
 </div>
 

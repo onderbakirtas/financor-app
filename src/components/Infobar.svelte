@@ -19,5 +19,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    z-index: 100;
+    background-color: white;
   }
 </style>

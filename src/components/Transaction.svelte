@@ -1,7 +1,16 @@
 <script>
+  import { getDaysPast } from "../utils/helpers";
+  import { Financor } from "../utils/database";
+
   export let type;
   export let category;
   export let date;
+  export let amount;
+
+  const status = type === 'expense' ? '-' : ''
+  const time = getDaysPast(date);
+  const categories = new Financor().categories;
+  const categoryText = categories.find((e) => e.name === category).text;
 </script>
 
 <div class="transaction">
@@ -9,10 +18,10 @@
     <i class="bi bi-cup-straw" />
   </span>
   <div class="transaction-body">
-    <span class="title">Yemek</span>
-    <span class="date">Bugün</span>
+    <span class="title">{categoryText}</span>
+    <span class="date">{time}</span>
   </div>
-  <div class="transaction-amount {type}">-15.00 TL</div>
+  <div class="transaction-amount {type}">{status}{amount} TL</div>
 </div>
 
 <style lang="scss">
@@ -57,6 +66,7 @@
         color: var(--c-gray-light);
         display: inline-block;
         margin-top: 5px;
+        text-transform: capitalize;
       }
     }
 
