@@ -1,0 +1,6 @@
+@import './colors.scss';
+
+%box {
+  box-shadow: 0 5px 20px transparentize($color: $c-black, $amount: 0.8);
+  border-radius: 10px;
+}

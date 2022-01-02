@@ -14,6 +14,8 @@
 </div>
 
 <style lang="scss">
+  @import '../styles/placeholders';
+
   .recents {
     margin-top: 2rem;
 
@@ -23,7 +25,12 @@
     }
 
     &-title {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
+    }
+
+    &-list {
+      @extend %box;
+      margin-top: 1rem;
     }
   }
 </style>

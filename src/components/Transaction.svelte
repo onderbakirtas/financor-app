@@ -19,9 +19,9 @@
     align-items: center;
     width: 100%;
     height: 60px;
+    padding: 1rem;
 
     &-icon {
-      flex: 0 0 50px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -41,6 +41,7 @@
       display: flex;
       flex-direction: column;
       line-height: 1;
+      padding-left: 1rem;
 
       & .title {
         font-weight: 700;
