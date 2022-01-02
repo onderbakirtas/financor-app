@@ -9,7 +9,7 @@
     <a href="/transactions" use:link>Tümü</a>
   </header>
   <main class="recents-list">
-    <Transaction />
+    <Transaction type="expense" />
   </main>
 </div>
 
