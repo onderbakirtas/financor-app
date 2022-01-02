@@ -1,5 +1,7 @@
 <script>
   export let type;
+  export let category;
+  export let date;
 </script>
 
 <div class="transaction">
