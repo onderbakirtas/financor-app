@@ -1,5 +1,5 @@
 <script>
-  import { link, location } from "svelte-spa-router";
+  import { location } from "svelte-spa-router";
 
   const routes = {
     "/home": "Anasayfa",
