@@ -1,11 +1,7 @@
 <script>
-  import { onMount } from "svelte";
-
   import Router from "svelte-spa-router";
   import Tabbar from "./components/Tabbar.svelte";
   import { routes } from "./routes";
-
-  import PerfectScrollbar from "perfect-scrollbar";
   import Infobar from "./components/Infobar.svelte";
 
   const handleKeydown = (e) => {
@@ -23,17 +19,11 @@
   const handleContextMenu = (e) => {
     e.preventDefault();
   };
-
-  const perfectScrollbar = (node) => {
-    const ps = new PerfectScrollbar(node);
-  };
-
-  onMount(() => {});
 </script>
 
 <svelte:window on:keydown={handleKeydown} on:contextmenu={handleContextMenu} />
 
-<main use:perfectScrollbar>
+<main>
   <Router {routes} />
   <Infobar />
   <Tabbar />
@@ -41,7 +31,7 @@
 
 <style>
   main {
-    max-height: 100%;
     padding-top: var(--tabbar-height);
+    padding-bottom: calc(var(--tabbar-height) + 2rem);
   }
 </style>
