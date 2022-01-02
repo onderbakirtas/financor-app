@@ -1,5 +1,6 @@
 <script>
   import { location } from "svelte-spa-router";
+  import { fade, fly } from "svelte/transition";
 
   const routes = {
     "/home": "Anasayfa",
@@ -11,7 +12,9 @@
   $: title = routes[$location];
 </script>
 
-<span>{title}</span>
+{#key title}
+  <span in:fly={{ y: -16 }} out:fly={{ y: 16 }}>{title}</span>
+{/key}
 
 <style lang="scss">
   span {
@@ -19,5 +22,6 @@
     font-weight: 700;
     color: var(--c-black);
     text-decoration: none;
+    position: absolute;
   }
 </style>

@@ -11,9 +11,6 @@
 
 <style>
   .infobar {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -21,5 +18,7 @@
     padding: 1rem;
     z-index: 100;
     background-color: white;
+    height: var(--h-infobar);
+    position: relative;
   }
 </style>

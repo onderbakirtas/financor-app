@@ -1,8 +1,12 @@
 <script>
+  import { onMount } from "svelte";
   import Router from "svelte-spa-router";
   import Tabbar from "./components/Tabbar.svelte";
   import { routes } from "./routes";
   import Infobar from "./components/Infobar.svelte";
+  import Scrollbar from "smooth-scrollbar";
+
+  import "smooth-scrollbar/dist/smooth-scrollbar.css";
 
   const handleKeydown = (e) => {
     console.log(e);
@@ -19,19 +23,25 @@
   const handleContextMenu = (e) => {
     e.preventDefault();
   };
+
+  const scrollbar = (node) => {
+    Scrollbar.init(node, {
+      alwaysShowTracks: false
+    });
+  };
 </script>
 
 <svelte:window on:keydown={handleKeydown} on:contextmenu={handleContextMenu} />
 
-<main>
+<Infobar />
+<div class="app" use:scrollbar>
   <Router {routes} />
-  <Infobar />
-  <Tabbar />
-</main>
+</div>
+<Tabbar />
 
-<style>
-  main {
-    padding-top: var(--tabbar-height);
-    padding-bottom: calc(var(--tabbar-height) + 2rem);
+<style lang="scss">
+  .app {
+    padding-bottom: 6rem;
+    max-height: calc(100vh - var(--h-infobar));
   }
 </style>
