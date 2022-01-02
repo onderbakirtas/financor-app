@@ -2,6 +2,7 @@
   import AccountCard from "../components/AccountCard.svelte";
   import Monthly from "../components/Monthly.svelte";
   import Operations from "../components/HomeOperations.svelte";
+  import Recents from "../components/RecentTransactions.svelte";
   import { fade } from "svelte/transition";
 </script>
 
@@ -9,6 +10,7 @@
   <AccountCard />
   <Monthly />
   <Operations />
+  <Recents />
 </div>
 
 <style lang="scss">
