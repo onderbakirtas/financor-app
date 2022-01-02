@@ -1,10 +1,11 @@
 <script>
   import BalanceInfo from "./BalanceInfo.svelte";
   import Logo from "./Logo.svelte";
+  import Title from "./Title.svelte";
 </script>
 
 <div class="infobar">
-  <Logo />
+  <Title />
   <BalanceInfo />
 </div>
 
