@@ -1,6 +1,6 @@
 <script>
   import { location } from "svelte-spa-router";
-  import { fade, fly } from "svelte/transition";
+  import { fly } from "svelte/transition";
 
   const routes = {
     "/home": "Anasayfa",
