@@ -1,3 +1,3 @@
 # Financor
 
-An app that helps you to save $$$.
+An app that helps you to save ₺₺₺.
