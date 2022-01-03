@@ -45,11 +45,17 @@ button {
   margin-top: 2rem;
 }
 
-.block-title {
+.block-header {
   margin-bottom: 12px;
+  color: var(--c-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-header-title {
   font-size: 20px;
   letter-spacing: -0.05rem;
-  color: var(--c-black);
 }
 
 .page {

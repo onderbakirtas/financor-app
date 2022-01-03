@@ -1,5 +1,6 @@
 <script>
   import Saving from "../Savings/Saving.svelte";
+  import { link } from "svelte-spa-router";
 
   const savings = [
     {
@@ -30,7 +31,10 @@
 </script>
 
 <div class="block">
-  <h4 class="block-title">Birikim Hedefleri</h4>
+  <header class="block-header">
+    <h4 class="block-header-title">Birikim Hedefleri</h4>
+    <a href="/savings" use:link>Tümü</a>
+  </header>
   <div class="block-list">
     {#each savings as saving}
       <Saving {...saving} />
@@ -48,4 +52,3 @@
     }
   }
 </style>
-
