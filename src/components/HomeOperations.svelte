@@ -47,7 +47,7 @@
     <Swiper
       class="operations-slider"
       freeMode
-      spaceBetween={20}
+      spaceBetween={10}
       slidesPerView="auto"
       modules={[FreeMode]}
     >
