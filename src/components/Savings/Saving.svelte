@@ -3,7 +3,7 @@
 
   export let title;
   export let target;
-  export let duration;
+  export let dueTo;
   export let type;
 
   let percentage = $store.balance / target;
@@ -16,7 +16,7 @@
     </span>
     <div class="content">
       <span>{title}</span>
-      <span>{duration}</span>
+      <span>{dueTo}</span>
     </div>
     <div class="percentage">
       <span>% {percentage}</span>
