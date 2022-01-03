@@ -52,15 +52,16 @@
     }
 
     &-text {
-      font-weight: 300;
-      color: $c-gray-dark;
+      font-weight: 400;
+      letter-spacing: 0.03rem;
+      color: var(--c-gray-dark);
       text-transform: capitalize;
       font-size: 14px;
     }
 
     &-amount {
-      font-weight: 600;
-      color: $c-black;
+      font-weight: 700;
+      color: var(--c-black);
       font-size: 1.25rem;
       margin-top: 3px;
     }
