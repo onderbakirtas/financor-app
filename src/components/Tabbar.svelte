@@ -59,7 +59,7 @@
     border-radius: 50px;
     left: 50%;
     transform: translateX(-50%);
-    width: calc(100% - 2rem);
+    width: calc(100% - 3rem);
     bottom: 1.5rem;
     box-shadow: 0 6px 32px rgba(20, 30, 40, 0.15);
     padding: 8px;
@@ -86,7 +86,7 @@
       justify-content: center;
       height: calc(var(--tabbar-height) - 1rem);
       flex: 1 1 25%;
-      width: 64px;
+      width: 55px;
       border-radius: 50px;
       color: $c-black;
       font-weight: 700;
