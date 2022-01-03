@@ -24,7 +24,7 @@
     }
 
     &-list {
-      padding: 1rem;
+      padding: 0.75rem;
       @extend %box;
       display: flex;
       align-items: center;
