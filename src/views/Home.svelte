@@ -3,6 +3,7 @@
   import Monthly from "../components/Monthly.svelte";
   import Operations from "../components/HomeOperations.svelte";
   import Recents from "../components/RecentTransactions.svelte";
+  import Savings from "../components/Home/HomeSavings.svelte";
   import { fade } from "svelte/transition";
 </script>
 
@@ -11,6 +12,7 @@
   <Monthly />
   <Operations />
   <Recents />
+  <Savings />
 </div>
 
 <style lang="scss">

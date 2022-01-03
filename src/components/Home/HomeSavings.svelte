@@ -37,3 +37,15 @@
     {/each}
   </div>
 </div>
+
+<style lang="scss">
+  @import "../../styles/placeholders";
+
+  .block {
+    &-list {
+      @extend %box;
+      padding: 5px;
+    }
+  }
+</style>
+
