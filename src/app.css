@@ -27,7 +27,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: var(--c-white);
   position: relative;
 }
 

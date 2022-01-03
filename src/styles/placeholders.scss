@@ -1,6 +1,14 @@
 @import './colors.scss';
 
 %box {
-  box-shadow: 0 5px 20px transparentize($color: $c-black, $amount: 0.8);
+  box-shadow: 0 4px 24px transparentize($color: $c-black, $amount: 0.92);
   border-radius: 10px;
+  background-color: #fff;
+}
+
+%home-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.05rem;
+  margin-bottom: 1rem;
 }

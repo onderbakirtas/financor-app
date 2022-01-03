@@ -61,7 +61,7 @@
     transform: translateX(-50%);
     width: calc(100% - 2rem);
     bottom: 1.5rem;
-    box-shadow: 0 6px 32px rgba(20, 30, 40, 0.1);
+    box-shadow: 0 6px 32px rgba(20, 30, 40, 0.15);
     padding: 8px;
     height: var(--tabbar-height);
 

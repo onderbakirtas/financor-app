@@ -9,7 +9,7 @@
   <BalanceInfo />
 </div>
 
-<style>
+<style lang="scss">
   .infobar {
     width: 100%;
     display: flex;
@@ -20,5 +20,6 @@
     background-color: white;
     height: var(--h-infobar);
     position: relative;
+    box-shadow: 0 3px 24px var(--c-gray-light);
   }
 </style>
