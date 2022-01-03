@@ -1,6 +1,6 @@
 <script>
   import { link } from "svelte-spa-router";
-  import Transaction from "./Transaction.svelte";
+  import Transaction from "./Common/Transaction.svelte";
 </script>
 
 <div class="recents">

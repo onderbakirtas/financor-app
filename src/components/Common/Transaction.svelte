@@ -1,6 +1,6 @@
 <script>
-  import { getDaysPast } from "../utils/helpers";
-  import { Financor } from "../utils/database";
+  import { getDaysPast } from "../../utils/helpers";
+  import { Financor } from "../../utils/database";
 
   export let type;
   export let category;
