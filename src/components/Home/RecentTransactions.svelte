@@ -1,6 +1,6 @@
 <script>
   import { link } from "svelte-spa-router";
-  import Transaction from "./Common/Transaction.svelte";
+  import Transaction from "../Common/Transaction.svelte";
 </script>
 
 <div class="recents">
@@ -17,7 +17,7 @@
 </div>
 
 <style lang="scss">
-  @import '../styles/placeholders';
+  @import '../../styles/placeholders';
 
   .recents {
     margin-top: 2rem;
