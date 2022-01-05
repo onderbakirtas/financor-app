@@ -4,7 +4,7 @@
   export let block;
 </script>
 
-<button class="btn {accent}" class:block>{text}</button>
+<button class="btn {accent}" class:block on:click>{text}</button>
 
 <style lang="scss">
   @import "../../styles/colors";
