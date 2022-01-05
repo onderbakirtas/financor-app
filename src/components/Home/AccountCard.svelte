@@ -1,5 +1,5 @@
 <script>
-  import { store } from "../store";
+  import { store } from "../../../store";
 </script>
 
 <div class="card">
@@ -8,7 +8,7 @@
 </div>
 
 <style lang="scss">
-  @import "../styles/colors";
+  @import "../../styles/colors";
   .card {
     background-color: darken($color: $c-blue, $amount: 10);
     border-radius: 20px;

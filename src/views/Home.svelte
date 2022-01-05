@@ -1,5 +1,5 @@
 <script>
-  import AccountCard from "../components/AccountCard.svelte";
+  import AccountCard from "../components/Home/AccountCard.svelte";
   import Monthly from "../components/Home/HomeMonthly.svelte";
   import Operations from "../components/Home/HomeOperations.svelte";
   import Recents from "../components/RecentTransactions.svelte";
