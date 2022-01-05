@@ -34,11 +34,14 @@
 
 <style lang="scss">
   @import "../../styles/colors";
+  @import "../../styles/placeholders";
 
   .saving-card {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    margin-bottom: 1rem;
+    @extend %box;
 
     &-top {
       display: flex;
