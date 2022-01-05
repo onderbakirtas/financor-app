@@ -1,5 +1,5 @@
 <script>
-  import MonthlyChange from "./MonthlyChange.svelte";
+  import MonthlyChange from "../MonthlyChange.svelte";
 </script>
 
 <div class="monthly">
@@ -11,7 +11,7 @@
 </div>
 
 <style lang="scss">
-  @import "../styles/placeholders";
+  @import "../../styles/placeholders";
 
   .monthly {
     display: flex;

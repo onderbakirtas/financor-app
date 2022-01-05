@@ -1,7 +1,7 @@
 <script>
   import AccountCard from "../components/AccountCard.svelte";
-  import Monthly from "../components/Monthly.svelte";
-  import Operations from "../components/HomeOperations.svelte";
+  import Monthly from "../components/Home/HomeMonthly.svelte";
+  import Operations from "../components/Home/HomeOperations.svelte";
   import Recents from "../components/RecentTransactions.svelte";
   import Savings from "../components/Home/HomeSavings.svelte";
   import { fade } from "svelte/transition";
