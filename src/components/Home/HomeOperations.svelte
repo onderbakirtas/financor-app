@@ -1,5 +1,5 @@
 <script>
-  import OperationCard from "./OperationCard.svelte";
+  import OperationCard from "../OperationCard.svelte";
   import { Swiper, SwiperSlide } from "swiper/svelte";
 
   import { FreeMode } from "swiper";
@@ -61,7 +61,7 @@
 </div>
 
 <style lang="scss">
-  @import "../styles/colors";
+  @import "../../styles/colors";
 
   .block {
     margin-top: 2rem;
