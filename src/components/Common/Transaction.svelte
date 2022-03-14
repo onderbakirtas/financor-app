@@ -39,11 +39,11 @@
       font-size: 28px;
 
       &.income {
-        color: var(--c-blue);
+        color: var(--c-green);
       }
 
       &.expense {
-        color: var(--c-orange);
+        color: var(--c-red);
       }
     }
 

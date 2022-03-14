@@ -11,7 +11,7 @@
   <main class="recents-list">
     <Transaction type="expense" category="food" amount="54" date={Date.now()} />
     <Transaction type="expense" category="food" amount="54" date={Date.now()} />
-    <Transaction type="expense" category="food" amount="54" date={Date.now()} />
+    <Transaction type="income" category="transfer" amount="54" date={Date.now()} />
     <Transaction type="expense" category="food" amount="54" date={Date.now()} />
   </main>
 </div>

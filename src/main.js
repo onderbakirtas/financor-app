@@ -1,4 +1,4 @@
-import App from "./app.svelte";
+import App from "./App.svelte";
 import "./app.css";
 import { Financor } from "./utils/database";
 

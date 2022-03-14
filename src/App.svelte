@@ -1,11 +1,9 @@
 <script>
-  import { onMount } from "svelte";
+  import Scrollbar from "smooth-scrollbar";
   import Router from "svelte-spa-router";
+  import Infobar from "./components/Infobar.svelte";
   import Tabbar from "./components/Tabbar.svelte";
   import { routes } from "./routes";
-  import Infobar from "./components/Infobar.svelte";
-  import Scrollbar from "smooth-scrollbar";
-
   import "smooth-scrollbar/dist/smooth-scrollbar.css";
 
   const handleKeydown = (e) => {
@@ -41,7 +39,8 @@
 
 <style lang="scss">
   .app {
-    padding-bottom: 6rem;
+    padding-bottom: 1rem;
+    padding-top: 4rem;
     max-height: calc(100vh - var(--h-infobar));
   }
 </style>

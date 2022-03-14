@@ -1,6 +1,5 @@
 <script>
   import BalanceInfo from "./BalanceInfo.svelte";
-  import Logo from "./Logo.svelte";
   import Title from "./Title.svelte";
 </script>
 
@@ -19,7 +18,7 @@
     z-index: 100;
     background-color: white;
     height: var(--h-infobar);
-    position: relative;
+    position: fixed;
     box-shadow: 0 3px 24px var(--c-gray-light);
   }
 </style>

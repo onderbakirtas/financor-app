@@ -29,11 +29,11 @@
     width: 130px;
 
     &.income {
-      background: linear-gradient(225deg, lighten($c-blue, 10), darken($c-blue, 20));
+      background: linear-gradient(225deg, lighten($c-green, 15), darken($c-green, 10));
     }
 
     &.expense {
-      background: linear-gradient(225deg, lighten($c-orange, 10), darken($c-orange, 20));
+      background: linear-gradient(225deg, lighten($c-red, 15), darken($c-red, 10));
     }
 
     &-amount {
